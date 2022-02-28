@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 
 .App-logo {
   height: 40vmin;
@@ -30,65 +30,66 @@
   color: #61dafb;
 }
 
-.bfi-logo{
+.bfi-logo {
   height: 50px;
   width: auto;
   display: block;
   margin: auto;
 }
 
-.filter-form{
+.filter-form {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.type-filter, .author-filter{
+.type-filter,
+.author-filter {
   padding-bottom: 12px;
 }
 
-.filter-submit-button{
+.filter-submit-button {
   width: 100%;
   height: 58px;
   font-weight: 600;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-@media screen and (min-width: 600px){
-  .type-filter{
+@media screen and (min-width: 600px) {
+  .type-filter {
     padding-left: 8px;
   }
-  .author-filter{
+  .author-filter {
     padding-right: 12px;
   }
 }
 
-@media screen and (min-width: 900px){
-  .type-filter{
+@media screen and (min-width: 900px) {
+  .type-filter {
     padding-left: 8px;
   }
-  .filter-submit{
+  .filter-submit {
     padding-left: 16px;
   }
-  .type-filter-input,.author-filter-input{
+  .type-filter-input,
+  .author-filter-input {
     width: 80%;
   }
-  .filter-submit-button{
+  .filter-submit-button {
     width: auto;
     padding: 0 30px;
   }
 }
 
-.article-author{
+.article-author {
   text-align: right;
 }
 
-.article-metadata{
+.article-metadata {
   display: flex;
   padding-bottom: 10px;
   justify-content: space-between;
-
 }
 
 @keyframes App-logo-spin {
